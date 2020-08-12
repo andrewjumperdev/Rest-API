@@ -4,8 +4,8 @@ const router = Router();
 
 router.get('/test', (req, res) => {
     const data = {
-        "name": "Andrew",
-        "lastNAme": "Alfaro"
+        "name": "Carlos",
+        "lastNAme": "Barquero"
     };
     res.json(data);
 });
